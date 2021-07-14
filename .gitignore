@@ -4,6 +4,11 @@ env*/
 *.sock
 secret*
 
+# terraform
+.terraform*
+terraform*
+
+
 # Beyond this point it's
 # https://github.com/github/gitignore/blob/master/Python.gitignore
 
