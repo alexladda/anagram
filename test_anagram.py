@@ -10,7 +10,3 @@ class TestLog(unittest.TestCase):
         self.assertEqual(is_anagram('A', 'B'), False)
         self.assertEqual(is_anagram('ab', 'ba'), True)
         self.assertEqual(is_anagram('AB', 'ab'), True)
-        # Test for some Errors
-        self.assertRaises(is_anagram(1, 2), TypeError)
-        self.assertRaises(is_anagram([1, "a"], ("b", 5, 9)), TypeError)
-        self.assertRaises(is_anagram(), TypeError)
